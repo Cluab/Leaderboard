@@ -1,5 +1,5 @@
 {
-  "name": "to-do-list",
+  "name": "Leaderboard",
   "version": "1.0.0",
   "description": "![](https://img.shields.io/badge/Microverse-blueviolet)",
   "private": true,
@@ -10,15 +10,15 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/Cluab/to-do-list.git"
+    "url": "git+https://github.com/Cluab/Leaderboard.git"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/Cluab/to-do-list/issues"
+    "url": "https://github.com/Cluab/Leaderboard/issues"
   },
-  "homepage": "https://github.com/Cluab/to-do-list#readme",
+  "homepage": "https://github.com/Cluab/Leaderboard#readme",
   "devDependencies": {
     "@babel/plugin-transform-modules-commonjs": "^7.19.6",
     "babel-eslint": "^10.1.0",
