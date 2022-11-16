@@ -25,12 +25,12 @@ button.addEventListener('click', (event) => {
   inputName.value = '';
   inputScore.value = '';
 });
-
+// when clicked the leader board refreshes
 reload.addEventListener('click', (event) => {
   event.preventDefault();
   Get.getscores();
 });
-
+// leader board refreshes on page load
 body.onload = () => {
   Get.getscores();
 };
