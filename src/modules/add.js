@@ -1,6 +1,6 @@
 export default class Addleader {
-  constructor(name, score) {
-    this.name = name;
+  constructor(user, score) {
+    this.user = user;
     this.score = score;
   }
 
@@ -8,7 +8,7 @@ export default class Addleader {
   static addToList = (list) => {
     const ul = document.querySelector('.board');
     const li = document.createElement('li');
-    li.innerText = `${list.name}:${list.score}`;
+    li.innerText = `${list.user}:${list.score}`;
     ul.appendChild(li);
   };
 }
