@@ -1,5 +1,4 @@
-const URl =
-  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/FvdD13u2sOwTjQITHHyZ/scores';
+const URl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/FvdD13u2sOwTjQITHHyZ/scores';
 export default class Post {
   static addSomethingAsync = async (data1, data2) => {
     const payloadObject = {
