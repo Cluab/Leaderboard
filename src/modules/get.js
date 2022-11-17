@@ -11,7 +11,11 @@ export default class Get {
       .then((res) => res.json())
       .then((data) => {
         userdatails.innerHTML = '';
-        return data.result.forEach((el) => {
+
+        let arr = data.result;
+        // sorts the leaderboard
+        arr = arr.sort((a, b) => b.score - a.score);
+        return arr.forEach((el) => {
           Addleader.addToList(el);
         });
       });

@@ -8,7 +8,12 @@ export default class Addleader {
   static addToList = (list) => {
     const ul = document.querySelector('.board');
     const li = document.createElement('li');
-    li.innerText = `${list.user}:${list.score}`;
+    const name = document.createElement('p');
+    const score = document.createElement('p');
+    name.innerText = `${list.user}`;
+    score.innerText = `${list.score}`;
+    li.appendChild(name);
+    li.appendChild(score);
     ul.appendChild(li);
   };
 }

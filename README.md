@@ -7,7 +7,7 @@
 ## Built With
 
 - Major languages(HTMl, CSS & JAVASCRIPT)
-- Frameworks(webpack)
+- Frameworks(webpack & SCSS)
 - Technologies used(VS code, webpack, Git & Github)
 
 ### Live demo

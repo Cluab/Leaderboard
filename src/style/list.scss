@@ -1,0 +1,79 @@
+.score-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.recentScore-dev {
+  display: flex;
+  flex-direction: row;
+  gap: 35px;
+
+  h2 {
+    font-size: 35px;
+    margin-bottom: 0;
+    margin-top: 20px;
+    font-family: 'Anton', sans-serif;
+    color: rgb(78, 53, 19);
+  }
+
+  button {
+    margin: 35px 0;
+    font-size: 15px;
+    border: none;
+    border-radius: 7px;
+    background-color: adjust-hue($color: #533e31, $degrees: 3);
+  }
+}
+
+.result-dev {
+  position: relative;
+  overflow: hidden;
+  min-width: 350px;
+  max-width: 350px;
+
+  .leaderboard {
+    margin: 0;
+  }
+
+  ul {
+    list-style: none;
+    border: 1px solid black;
+    padding: 0;
+    width: 100%;
+    margin: 0;
+
+    :nth-child(odd) {
+      background-color: rgba(153, 123, 123, 0.445);
+    }
+
+    :nth-child(even) {
+      background-color: rgba(250, 246, 246, 0.671);
+    }
+
+    li {
+      padding: 5px;
+      display: flex;
+      flex-direction: row;
+      gap: 20px;
+      justify-content: space-between;
+      height: max-content;
+      font-family: 'PT Sans', sans-serif;
+
+      :nth-child(odd) {
+        background-color: rgba(58, 82, 99, 0.555);
+      }
+
+      :nth-child(even) {
+        background-color: rgba(29, 12, 12, 0.966);
+        color: white;
+      }
+
+      p {
+        margin: 0;
+        padding: 10px;
+        border-radius: 7px;
+      }
+    }
+  }
+}
