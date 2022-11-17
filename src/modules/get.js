@@ -13,9 +13,8 @@ export default class Get {
         userdatails.innerHTML = '';
 
         let arr = data.result;
+        // sorts the leaderboard
         arr = arr.sort((a, b) => b.score - a.score);
-
-        // data.sort((a, b) => a.score - b.score);
         return arr.forEach((el) => {
           Addleader.addToList(el);
         });
