@@ -1,0 +1,35 @@
+ .addScore-dev{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    
+    h3{
+        color: rgb(33, 58, 58);
+    font-size: 30px;
+    margin: 0;
+    margin-top: 20px;
+    font-family: 'Anton', sans-serif;;
+    }
+  
+  form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px; 
+    #name {
+        height: 3em;
+        border: none;
+        border-radius: 7px;
+    }
+    #score {
+        height: 3em;
+        border: none;
+        border-radius: 7px;
+    }
+   button {
+    margin-left: 70%;
+    border: none;
+    border-radius: 7px;
+    background-color: adjust-hue($color: #533131, $degrees: 3);
+  }
+  }
+  }

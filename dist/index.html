@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="style.css">
     <title>Leaderboard</title>
-<script defer src="runtime.js"></script><script defer src="main.js"></script></head>
+<script defer src="runtime.js"></script></head>
 <body>
     <header><h1>Leaderboard</h1></header>
     <section class="score-section">
@@ -22,9 +22,9 @@
         </div>
         <div class="addScore-dev">
             <h3>Add your score</h3>
-            <form action="#">
-                <input type="text" placeholder="Your name" id="name" required>
-                <input type="number" placeholder="Your score" id="score" required>
+            <form id="form"action="#">
+                <input type="text" name="user"placeholder="Your name" id="name" required>
+                <input type="number" name="score" placeholder="Your score" id="score" required>
                 <button type="submit" id="submit">submit</button>
             </form>
         </div>

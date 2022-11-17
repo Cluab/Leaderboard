@@ -1,4 +1,5 @@
-const URl = 'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/FvdD13u2sOwTjQITHHyZ/scores';
+const URl =
+  'https://us-central1-js-capstone-backend.cloudfunctions.net/api/games/FvdD13u2sOwTjQITHHyZ/scores';
 // assigning the api to a verbal
 export default class Post {
   static addSomethingAsync = async (data1, data2) => {

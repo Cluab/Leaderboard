@@ -8,7 +8,7 @@
     <title>Leaderboard</title>
 </head>
 <body>
-    <header><h1>Leaderboard</h1></header>
+    <header><h1 class="title">Leaderboard</h1></header>
     <section class="score-section">
         <div class="result-dev">
             <div class="recentScore-dev">
@@ -22,12 +22,13 @@
         </div>
         <div class="addScore-dev">
             <h3>Add your score</h3>
-            <form action="#">
-                <input type="text" placeholder="Your name" id="name" required>
-                <input type="number" placeholder="Your score" id="score" required>
+            <form id="form"action="#">
+                <input type="text" name="user"placeholder="Your name" id="name" required>
+                <input type="number" name="score" placeholder="Your score" id="score" required>
                 <button type="submit" id="submit">submit</button>
             </form>
         </div>
     </section>
+    <footer><div></div></footer>
 </body>
 </html>

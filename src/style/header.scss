@@ -1,0 +1,20 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=PT+Sans:ital,wght@0,700;1,400&family=Rubik+Microbe&display=swap');
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: rgb(24, 23, 23);
+    background-image: url("/src/images/background.jpeg");
+  }
+  
+  header h1 {
+    font-size: 60px;
+    font-family: 'Anton', sans-serif;
+    font-weight: 700;
+   color: rgb(131, 37, 37); 
+    padding-left: 10%;
+    padding-bottom: 15px;
+    // background-image: url("src/isolated-flame-black-17945518.jpg");
+  }
+  
+ 
