@@ -11,7 +11,12 @@ export default class Get {
       .then((res) => res.json())
       .then((data) => {
         userdatails.innerHTML = '';
-        return data.result.forEach((el) => {
+
+        let arr = data.result;
+        arr = arr.sort((a, b) => b.score - a.score);
+
+        // data.sort((a, b) => a.score - b.score);
+        return arr.forEach((el) => {
           Addleader.addToList(el);
         });
       });

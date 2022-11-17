@@ -12,7 +12,6 @@ const form = document.getElementById('form');
 const inputName = document.getElementById('name');
 const inputScore = document.getElementById('score');
 const reload = document.getElementById('refresh');
-const title = document.querySelector('.title');
 document.addEventListener('DOMContentLoaded', Addleader);
 
 const myIcon = new Image();
@@ -25,7 +24,7 @@ form.addEventListener('submit', (event) => {
   name = name.trim(name);
   if (name === '' || score === '') return;
   event.preventDefault();
-  // Post.addSomethingAsync(name, score);
+  Post.addSomethingAsync(name, score);
   const list = new Addleader(name, score);
   Addleader.addToList(list);
 
