@@ -12,7 +12,7 @@
 
 ### Live demo
 
-[loading...]
+[Demo](https://leaderboard-s4ud.onrender.com/)
 
 ## Authors
 
